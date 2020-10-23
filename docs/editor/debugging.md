@@ -4,7 +4,7 @@ Area: editor
 TOCTitle: Debugging
 ContentId: 4E9A74AA-D778-4D1C-B369-83763B3C340F
 PageTitle: Debugging in Visual Studio Code
-DateApproved: 8/13/2020
+DateApproved: 10/8/2020
 MetaDescription: One of the great things in Visual Studio Code is debugging support.  Set breakpoints, step-in, inspect variables and more.
 MetaSocialImage: images/debugging/Debugging.png
 ---
@@ -219,6 +219,7 @@ Many debuggers support some of the following attributes:
 * `program` - executable or file to run when launching the debugger
 * `args` - arguments passed to the program to debug
 * `env` - environment variables (the value `null` can be used to "undefine" a variable)
+* `envFile` - path to dotenv file with environment variables
 * `cwd` - current working directory for finding dependencies and other files
 * `port` - port when attaching to a running process
 * `stopOnEntry` - break immediately when the program launches
